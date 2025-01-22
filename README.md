@@ -3,12 +3,8 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+In this tutorial, I will outline the steps to deploy and implement an on-premises Active Directory environment within Azure Virtual Machines. AD is a software solution designed to centrally manage thousands of user accounts, including passwords, permissions, and other settings, from a single location.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -20,11 +16,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 (22H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
+- Set-up Azure Vms
 - Step 2
 - Step 3
 - Step 4
@@ -54,3 +50,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
+
+
+
+
+
+
+
+
+
+
+<!--<h2>Video Demonstration</h2> - ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute]--> 
+<!--(https://www.youtube.com)-->
+
