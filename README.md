@@ -21,7 +21,7 @@ In this tutorial, I will outline the steps to deploy and implement an on-premise
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Set-up Azure Vms
-- Step 2
+- Create 100+ users
 - Step 3
 - Step 4
 
