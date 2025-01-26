@@ -18,12 +18,6 @@ In this tutorial, I will outline the steps to deploy and implement an on-premise
 - Windows Server 2022
 - Windows 10 (22H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
-
-- Set-up Azure Vms
-- Create 100+ users
-- Step 3
-- Step 4
 
 <h2>Deployment and Configuration Steps</h2> 
 
@@ -59,5 +53,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 <!--<h2>Video Demonstration</h2> - ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute]--> 
-<!--(https://www.youtube.com)-->
+<!--(https://www.youtube.com)<h2>High-Level Deployment and Configuration Steps</h2>
+
+- Set-up Azure Vms
+- Configure Vms
+- Step 3
+- Step 4
+-->
 
