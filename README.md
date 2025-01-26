@@ -25,23 +25,23 @@ In this tutorial, I will outline the steps to deploy and implement an on-premise
 - Step 3
 - Step 4
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Deployment and Configuration Steps</h2> 
 
 <p>
-First create a Resource Group(Active Directory), Virtual Network(AD-VN), VM(DC-1) and VM(Client-1), then place the Virtual Network and both VMs inside the Resource Group, and configure the private IP addresses of the DC VM to be static to ensure it never changes.
-  <img src="DC-1 Config.jpg" height="30%" width="30%" alt="DC-1"/> Then use Remote Desktop to conncet to them.
+Using Azure, I created two virtual machines, naming one DC-1 and the other Client-1. <p><img src="Azure.jpg" height="30%" width="30%" alt="Azure"/> </p> After that, I configured the client-1s DNS in Azure by setting the DNS server to DC-1s private IP, so that whenever Client-1 tries to access a website or any other resource, it will query DC-1(meaning DC-1 is Client-1s DNS server). Next, I used PowerShell to ping DC-1's private IP from Client-1 to verify the connection, and it was successful. <p><img src="powershell.ping.jpg" height="30%" width="30%" alt="Ping"/></p> Then, I ran ipconfig /all to check if DC-1's private IP would appear in the DNS server section, and it did. <p><img src="DNS-IP.jpg" height="30%" width="30%" alt="DNS IP"/></p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="30%" width="30%" alt=""/>
 </p>
+
 <p>
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="300%" width="30%" alt=""/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
